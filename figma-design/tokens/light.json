@@ -1,0 +1,54 @@
+{
+  "fg": {
+    "inverted": {
+      "value": "{core.colors.gray.300}",
+      "type": "color"
+    },
+    "default": {
+      "value": "{core.colors.gray.800}",
+      "type": "color"
+    },
+    "subtle": {
+      "value": "{core.colors.gray.500}",
+      "type": "color"
+    }
+  },
+  "bg": {
+    "subtle": {
+      "value": "{core.colors.brand.champagne-pink.default}",
+      "type": "color"
+    },
+    "default": {
+      "value": "{core.colors.brand.desert-sand.default}",
+      "type": "color"
+    },
+    "strong": {
+      "value": "{core.colors.brand.buff.default}",
+      "type": "color"
+    }
+  },
+  "accent": {
+    "muted": {
+      "value": "{core.colors.brand.ash-gray.default}",
+      "type": "color"
+    },
+    "default": {
+      "value": "{core.colors.brand.sage.default}",
+      "type": "color"
+    },
+    "strong": {
+      "value": "{core.colors.brand.reseda-green.default}",
+      "type": "color"
+    },
+    "onAccent": {
+      "value": "{core.colors.white}",
+      "type": "color"
+    }
+  },
+  "shadows": {
+    "default": {
+      "value": "{core.colors.gray.900}",
+      "type": "color"
+    }
+  }
+}

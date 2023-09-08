@@ -1,0 +1,15 @@
+.navbar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+    padding: var(--header-spacing-padding-default);
+    height: var(--header-sizing-height);
+    background-color: var(--header-color-bg);
+    /*box-shadow: var(--box-shadow-default);*/
+}
+
+.main {
+    flex: 1 1 0;
+    padding: var(--card-spacing-padding-default);
+}
