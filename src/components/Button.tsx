@@ -8,16 +8,17 @@ interface IProps {
   size?: 'small' | 'medium' | 'large';
 }
 
-export const Button:React.FC<IProps> = React.memo((props) => {
+const Button:React.FC<IProps> = (props) => {
   const {
     color = 'primary',
     size = 'medium'
   } = props;
-  const fontSize = size === 'small' ? 'small' : 'default';
 
   return (
     <button className={Cx(styles[size], styles[color])}>
       {props.children}
     </button>
   )
-});
+};
+
+export default Button;
